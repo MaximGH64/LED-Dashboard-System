@@ -28,7 +28,7 @@ This is the main user-facing unit. It runs the 6-app "operating system" and cont
 - **Controller:** ESP32
 - **Display:** 32×32 (1024-pixel) WS2812B Addressable LED Matrix (four 8×32 panels). The matrix updates at approximately **30Hz** since each of the 1024 LEDs requires  about 30 microseconds to update, allowing for smooth animations.
 - **Inputs:**
-  - **Rotary Encoder:** For menu navigation and fine-tuning (e.g., clock adjust).
+  - **Rotary Encoder:** For menu navigation and fine-tuning (such as adjusting the clock).
   - **Joystick:** For analog control, primarily used in the Snake game.
   - **Sensor:** TCS34725 Color Sensor with built-in white LED.
 - **Wireless:** ESP-NOW (to receive data from transmitter) & Wi-Fi (for API/NTP access).
